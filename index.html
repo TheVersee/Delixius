@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Delixius</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="avatar.png">
+  </head>
+  <body>
+<form class="box" action="main.html">
+  <h1>Login</h1>
+    <img class="avatar" src="avatar.png">
+  <input type="text" id="name" name="" placeholder="Username" required>
+  <input type="password" name="" placeholder="Password" required>
+  <input type="submit" name="" value="Login" action="main.html" >
+    
+    <script>
+        var n = document.getElementById("name").value;
+        localStorage.setItem("username", n);
+    </script>
+</form>
+</body>
+</html>
